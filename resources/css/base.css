@@ -1,0 +1,7 @@
+.table-hover:hover {
+    cursor: pointer;
+}
+
+.alert {
+    display: none;
+}
