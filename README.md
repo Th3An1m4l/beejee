@@ -3,6 +3,8 @@
 ### in root of project
 
 ```
+mkdir storage
+
 composer update
 
 php -S localhost:8000
