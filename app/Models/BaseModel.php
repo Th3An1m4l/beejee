@@ -101,8 +101,8 @@ class BaseModel {
 
     public function initTables() {
         // Drop table messages from file db
-        $this->DB->exec("DROP TABLE tasks");
-        $this->DB->exec("DROP TABLE admins");
+        $this->DB->exec("DROP TABLE IF EXISTS tasks");
+        $this->DB->exec("DROP TABLE IF EXISTS admins");
 
         // Create table tasks
         $this->DB->exec("CREATE TABLE IF NOT EXISTS tasks (
